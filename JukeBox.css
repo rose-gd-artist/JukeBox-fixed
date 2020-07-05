@@ -1,0 +1,118 @@
+/*       Fonts 
+Charcuterie Serif Regular
+font-family: charcuterie-serif, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Charcuterie Serif Bold
+font-family: charcuterie-serif, sans-serif;
+font-weight: 700;
+font-style: normal; 
+
+font-family: lamar-pen, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: jaf-domus, sans-serif;
+font-weight: 200;
+font-style: normal;
+
+font-family: montana, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: montana, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: montana, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+font-family: montana, sans-serif;
+font-weight: 600;
+font-style: normal;
+
+font-family: montana-rough, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: montana-rough, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+*/
+
+
+
+
+
+body {
+    margin: 0px auto;
+    padding: 0px;
+    background-color:#161b27;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 70vw;
+    height: 40vw;
+    border-radius: 3vw;
+    background-color: #000;
+    margin: 5vw auto;
+    padding-top: 5vw;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+}
+
+#songInfo {
+    /* width: 35vw;
+    height: 20vw; */
+    padding: 2vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+#songArtist {
+    color: #4CC0EF;
+    font-size: 3vw;
+    font-family: lamar-pen, sans-serif;
+    font-weight: 400;
+}
+
+#songName {
+    color: #4CC0EF;
+    font-size: 4.5vw;
+    margin-top: -1.5vw;
+    font-family: montana, sans-serif;
+    font-weight: 600;
+}
+
+#trackNumber {
+    color: #0C7A9B;
+    font-size: 2.5vw;
+    margin-top: 7vw;
+    font-family: jaf-domus, sans-serif;
+    font-weight: 200;
+}
+
+#jBbuttons {
+    width: 35vw;
+    height: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+   
+
+}
+
+.controlButtons {
+    width: 5vw;
+    height: 5vw;
+    background-color:#4CC0EF;
+    border-radius: 50%;
+    float: left;
+    margin: 1vw;
+}
